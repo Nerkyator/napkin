@@ -7,7 +7,6 @@ kept here so it versions with the app; it is meant to be copied, as is, to
 
 - `PKGBUILD` builds the tagged release tarball
   (`https://github.com/nerkyator/napkin/archive/refs/tags/v<pkgver>.tar.gz`).
-- `napkin.install` refreshes the desktop database and icon cache.
 - `.omarchy/package.json` watches GitHub Releases for `v<version>` tags, so
   OPR's bot proposes each later release by itself, checksum included.
 
