@@ -1,0 +1,26 @@
+[workspace]
+resolver = "3"
+members = ["crates/engine", "crates/rates", "crates/app"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "MIT"
+repository = "https://github.com/nerkyator/napkin"
+publish = false
+
+[workspace.dependencies]
+napkin-engine = { path = "crates/engine" }
+bigdecimal = "0.4.11"
+chrono = { version = "0.4.45", default-features = false, features = ["std", "clock"] }
+chrono-tz = "0.10.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = "3.4.2"
+dirs = "7.0.0"
+napkin-rates = { path = "crates/rates" }
+
+[profile.release]
+lto = "thin"
+strip = true

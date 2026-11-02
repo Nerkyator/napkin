@@ -1,0 +1,146 @@
+# The English text of every string the catalogs translate, one per line.
+# Each <code>.json beside this file maps these, exactly, to their translation.
+# Words in braces ({date}) are filled in by Napkin and stay as they are.
+
+# The window
+Total
+Copy the total
+Copied
+Total copied
+All results copied
+This line has no result
+Exchange rates of {date}, more than 48 hours old
+Exchange rates of {day} not available: {error}
+Cannot change start at login: {error}
+
+# The menu
+Copy All Results
+Preferences
+Keyboard Shortcuts
+About Napkin
+
+# Keyboard shortcuts
+Results
+Copy the result of the current line
+Copy the result, when nothing is selected
+Copy every line with its result
+Editing
+Wrap the selection in parentheses
+Clear the sheet
+Window
+Menu
+Keyboard shortcuts
+Bigger text
+Smaller text
+Hide the window
+Quit
+
+# About
+A calculator you write in plain words: units, currencies, dates and time zones.
+Data
+Exchange rates by Exchange Rate API
+ECB rates via Frankfurter
+Crypto prices by CoinGecko
+Cities by GeoNames, CC BY 4.0
+
+# Preferences
+Decimals
+Up to how many decimals results show
+Number format
+Both for reading and for showing numbers
+Clock
+Appearance
+Text size
+In points
+Colors
+Omarchy (not found)
+System
+Light
+Dark
+CSS units
+Starting values; a line such as ppi = 220 changes them from there down
+Pixels per inch
+Font size
+em, in pixels
+Exchange rates
+Rates by Exchange Rate API, ECB data via Frankfurter, crypto prices by CoinGecko
+{attribution}. Current data: {date}
+Update exchange rates
+Startup
+Start at login
+Napkin starts hidden; the shortcut shows it
+
+# The first sheet
+Welcome to Napkin
+One calculation per line; results appear on the right. Click one to copy it.
+A label ends with a colon; a variable, set with =, can be reused below.
+Rent
+
+# Why a line has no result, from the engine
+{name} is not defined
+{name} is a label, not a variable: to reuse it, write {name} = …
+{a} and {b} measure different things
+two values without an operator
+this name belongs to a unit, currency or keyword
+nothing to assign
+on needs a date
+ppi must be positive
+ppi is a number of pixels per inch
+invalid ppi
+em is a length
+a plain number is expected
+a number is expected
+an angle is expected
+a date or a time is expected
+missing argument
+not a date
+invalid date
+no such date
+date out of range
+dates cannot be scaled
+dates cannot be negative
+invalid time
+time out of range
+this time does not exist in that zone
+a time goes after a date
+the ends must be dates or times
+invalid unit
+a unit goes after a number
+a currency goes with a number
+% goes after a number
+a percentage goes before of, on and off
+no result above
+nothing to add up above
+these values cannot be added together
+these values cannot be multiplied
+these values cannot be divided
+these values cannot be compared
+division by zero
+no unit for this product
+no unit for this power
+the exponent must be a plain number
+only numbers can be raised to a power
+result out of range
+mod needs numbers
+bit operators need whole numbers
+shift out of range
+factorial needs a whole number
+no real square root
+zeroth root
+outside the domain of the function
+outside the domain of log
+outside the domain of ln
+root takes the degree and the number
+log takes the base and the number
+round takes a number and the decimals
+decimals must be a whole number
+only measures convert to units
+only money converts to a currency
+only plain numbers change base
+only times convert to a time zone
+no exchange rates yet
+no exchange rate for {from}
+no exchange rate for {to}
+invalid exchange rate
+exchange rates of {date} not downloaded yet
+there are no exchange rates for days to come

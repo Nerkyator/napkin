@@ -1,0 +1,18 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+# Spese di ottobre          => —
+// prezzi senza IVA         => —
+Rent: $18 + $7.25           => $25.25
+w = $35                     => $35.00
+6 times 7                   => 42
+ricordarsi di pagare        => —
+10 + 5 // nota              => 15
+$140 for the "Brompton C"   => $140.00
+5 apples + 3 oranges        => 8
+Stop 3: $12                 => $12.00
+9:15 am JST in Lisbon       => 01:15
+                            => —

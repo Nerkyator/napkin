@@ -1,0 +1,32 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+120 km/h in mph                    => 74.56 mph
+50 km/h in m/s                     => 13.89 m/s
+100 km / 2 h                       => 50 km/h
+50 km/h * 3 h                      => 150 km
+3 h * 60 mph                       => 180 mi
+20 kn in km/h                      => 37.04 km/h
+1 kWh in J                         => 3,600,000 J
+1 kWh in MJ                        => 3.6 MJ
+2 kW * 3 h                         => 6 kWh
+3.5 kWh * €0.25                    => €0.88
+100 kcal in kJ                     => 418.4 kJ
+1 eV in J                          => 1.6e-19 J
+150 CV in kW                       => 110.32 kW
+150 hp in kW                       => 111.85 kW
+2 bar in psi                       => 29.01 psi
+1 atm in hPa                       => 1,013.25 hPa
+760 mmHg in atm                    => 1 atm
+6 L/100km in mpg                   => 39.2 mpg
+30 mpg in L/100km                  => 7.84 L/100km
+15 km/L in L/100km                 => 6.67 L/100km
+18 L / 300 km in L/100km           => 6 L/100km
+6 L/100km * 300 km                 => 18 L
+100 Mbps in MB/s                   => 12.5 MB/s
+1 GB / 100 Mbps in s               => 80 s
+km/h in mph                        => 0.62 mph
+5 kg * €4                          => €20.00

@@ -1,0 +1,41 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+sqrt 49                   => 7
+cbrt 64                   => 4
+root 2 (7)                => 2.65
+abs(-9)                   => 9
+log 100                   => 2
+log 3 (20)                => 2.73
+ln 7                      => 1.95
+fact 6                    => 720
+round 6.45                => 6
+ceil 5.12                 => 6
+floor 8.91                => 8
+sin 60°                   => 0.87
+cos pi                    => -1
+tan 45°                   => 1
+arcsin 1                  => 1.57 rad
+arccos 0                  => 1.57 rad
+arctan 1                  => 0.79 rad
+sinh 1                    => 1.18
+cosh 0                    => 1
+tanh 1                    => 0.76
+sqrt 36 + 4               => 10
+sqrt(36 + 13)             => 7
+arcsin 1 in degrees       => 90°
+round 2.5                 => 3
+round -2.5                => -3
+sqrt(-1)                  => —
+ln 0                      => —
+fact 2.5                  => —
+arcsin 7                  => —
+5!                        => 120
+root(3; 27)               => 3
+round(3.456; 2)           => 3.46
+pi                        => 3.14
+π                         => 3.14
+sin pi                    => 0

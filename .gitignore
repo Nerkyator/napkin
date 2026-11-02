@@ -1,0 +1,10 @@
+/target
+*.swp
+*~
+# makepkg output
+packaging/src/
+packaging/pkg/
+packaging/opr/napkin/src/
+packaging/opr/napkin/pkg/
+*.pkg.tar.*
+*.tar.gz

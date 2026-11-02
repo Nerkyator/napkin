@@ -1,0 +1,17 @@
+[package]
+name = "napkin-rates"
+description = "Downloads and caches exchange rates for Napkin"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+napkin-engine = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+ureq = { workspace = true }
+dirs = { workspace = true }
+chrono = { workspace = true }

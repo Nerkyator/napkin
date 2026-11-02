@@ -1,0 +1,17 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+@rates-on 2026-01-15 fixtures/rates-2026-01-15.json
+
+100 USD in EUR on Jan 15          => €86.00
+100 USD on 2026-01-15 in EUR      => €86.00
+€86 in USD on 15 Jan              => $100.00
+$10 + €10 in GBP on Jan 15        => £16.22
+100 USD in EUR                    => €90.00
+100 USD in EUR on 2026-02-01      => —
+100 USD in EUR on Dec 25          => —
+1 BTC in EUR on Jan 15            => —
+8% on $45                         => $48.60
+$50 on Jan 15                     => $50.00

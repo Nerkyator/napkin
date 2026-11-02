@@ -1,0 +1,40 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+100 USD                   => $100.00
+USD 100                   => $100.00
+$100                      => $100.00
+100$                      => $100.00
+10 dollars                => $10.00
+€10                       => €10.00
+10 EUR                    => €10.00
+10 eur                    => €10.00
+10 euro                   => €10.00
+10 euros                  => €10.00
+£10                       => £10.00
+10 GBP                    => £10.00
+10 pound sterling         => £10.00
+¥1000                     => ¥1,000
+1000 JPY                  => ¥1,000
+1000 yen                  => ¥1,000
+100 roubles               => 100.00 RUB
+₽100                      => 100.00 RUB
+100 RUB                   => 100.00 RUB
+$25 CAD                   => 25.00 CAD
+100 USD in EUR            => €90.00
+€90 in USD                => $100.00
+$10 + 5 EUR               => €14.00
+$42 CAD + 8 USD - 9EUR    => €25.20
+10 dollars in euros       => €9.00
+100 roubles in eur        => €1.00
+¥1000 in USD              => $6.67
+£10 in EUR                => €12.00
+1 BTC in EUR              => €90,000.00
+0.5 ETH in USD            => $1,250.00
+USD in EUR                => €0.90
+1 cup                     => 1 cup
+1 CUP                     => 1.00 CUP
+100 CHF in EUR            => —

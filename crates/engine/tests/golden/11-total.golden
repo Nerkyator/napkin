@@ -1,0 +1,12 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+# Spese di ottobre
+Affitto: €850             => €850.00
+Bollette: $120 in EUR     => €108.00
+Spesa: €240 + 15%         => €276.00
+Totale: sum               => €1,234.00
+@total €1,234.00

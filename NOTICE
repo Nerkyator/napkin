@@ -1,0 +1,11 @@
+Napkin is released under the MIT License (see LICENSE), except for the data
+below.
+
+City names and time zones
+  crates/engine/data/cities.tsv is derived from the GeoNames cities15000
+  dump (https://www.geonames.org), licensed under Creative Commons
+  Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/).
+  Changes: names lowercased, alternate names kept only for large cities, the
+  most populous city kept for each name, and time zones replaced by indexes
+  into a zone list. The file is built by tools/gen_cities.py and is compiled
+  into the napkin binary.

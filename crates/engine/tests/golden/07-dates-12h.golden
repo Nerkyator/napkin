@@ -1,0 +1,17 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+@clock 12
+
+time                      => 12:00 PM
+3pm                       => 3:00 PM
+12am                      => 12:00 AM
+now                       => 2026-10-14 12:00 PM
+15:00 in Tokyo            => 10:00 PM
+3:00 PM                   => 3:00 PM
+2026-10-14 3:30 PM        => 2026-10-14 3:30 PM
+Dec 25 9am                => 2026-12-25 9:00 AM
+3pm PST in CET            => 2026-10-15 12:00 AM
+fromunix(1600000000)      => 2020-09-13 2:26:40 PM

@@ -1,0 +1,29 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+rate = $35                    => $35.00
+rate2 = 8%                    => 8%
+rate times 4 - rate2          => $128.80
+rate + $15                    => $50.00
+Rate + 1                      => —
+m = 5                         => —
+x * 2                         => —
+Price: $40 - 15%              => $34.00
+Price + 34                    => —
+
+Lunch: $30 + 12 EUR           => €39.00
+After tip: prev - 10% discount => €35.10
+
+Day 1: $12                    => $12.00
+Day 2: $28                    => $28.00
+Trip: sum                     => $40.00
+Mean: avg                     => $20.00
+sum * 2                       => $80.00
+total in EUR                  => €36.00
+avg - 10%                     => $18.00
+
+# Empty block
+sum                           => —

@@ -1,0 +1,23 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+15% of $60                => $9.00
+8% on $25                 => $27.00
+12% off 50 EUR            => €44.00
+$80 - 25%                 => $60.00
+$30 as a % of $120        => 25%
+$90 as a % on $60         => 50%
+$40 as a % off $90        => 55.56%
+4% of what is 10 EUR      => €250.00
+8% on what is 30 EUR      => €27.78
+12% off what is 20 EUR    => €22.73
+15%                       => 15%
+20 percent of 50          => 10
+100 * 10%                 => 10
+100 / 10%                 => 1,000
+10% + 10%                 => 11%
+100                       => 100
+prev - 5%                 => 95

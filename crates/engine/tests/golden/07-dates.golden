@@ -1,0 +1,60 @@
+@now 2026-10-14T12:00:00+02:00
+@tz Europe/Rome
+@rates fixtures/rates.json
+@precision 2
+@format en
+
+today                     => 2026-10-14
+tomorrow                  => 2026-10-15
+yesterday                 => 2026-10-13
+now                       => 2026-10-14 12:00
+time                      => 12:00
+3pm                       => 15:00
+today + 5 weeks           => 2026-11-18
+today - 10 days           => 2026-10-04
+today + 1 month           => 2026-11-14
+2026-01-31 + 1 month      => 2026-02-28
+tomorrow + 1 year         => 2027-10-15
+now + 90 min              => 2026-10-14 13:30
+2026-12-25 - today        => 72 days
+(2026-12-25 - today) in weeks => 10.29 weeks
+time in Tokyo             => 19:00
+Tokyo time                => 19:00
+Los Angeles time          => 03:00
+Time in Lisbon            => 11:00
+now in Dublin             => 2026-10-14 11:00
+EST time                  => 05:00
+GMT+3 time                => 13:00
+UTC+5:30 time             => 15:30
+15:00 in Tokyo            => 22:00
+4:15 pm SGT in Paris      => 10:15
+3pm London in Rome        => 16:00
+3pm PST in CET            => 2026-10-15 00:00
+3pm London - 3pm Tokyo    => 8 h
+Europe/Rome time          => 12:00
+fromunix(1555555555)      => 2019-04-18 04:45:55
+fromunix(1700000000)      => 2023-11-14 23:13:20
+Dec 25                        => 2026-12-25
+25 December 2026              => 2026-12-25
+December 25th, 2026           => 2026-12-25
+25th of December              => 2026-12-25
+Dec 25 - today                => 72 days
+1 Jan 2027 + 2 weeks          => 2027-01-15
+may 1                         => 2026-05-01
+Feb 30                        => —
+2026-10-14 13:30              => 2026-10-14 13:30
+Dec 25 3pm                    => 2026-12-25 15:00
+meeting on Dec 3 at 3pm       => 2026-12-03 15:00
+2026-12-25 15:00 in Tokyo     => 2026-12-25 23:00
+2026-10-14 13:30 - now        => 1.5 h
+days to 25 december           => 72 days
+days until Dec 25             => 72 days
+weeks until Dec 25            => 10.29 weeks
+days since 1 jan              => 286 days
+25 december to today in days  => 72 days
+today to Dec 25               => 72 days
+between Jan 1 and Mar 1       => 59 days
+days between Jan 1 and Mar 1  => 59 days
+hours until 3pm               => 3 h
+from 9am to 5pm               => 8 h
+today - 25 december in days   => -72 days
