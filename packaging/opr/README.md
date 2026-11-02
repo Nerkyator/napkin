@@ -17,9 +17,9 @@ checkout with `makepkg -si`.
 ## Fill in the checksum after tagging
 
 The archive GitHub serves for a tag only exists once the tag is pushed, and
-its bytes depend on the tagged commit, so the recipe ships a placeholder
-checksum (all zeros). After `git tag v0.1.0 && git push --tags` and the
-GitHub release (a full release: the watch skips drafts and prereleases):
+its bytes depend on the tagged commit, so the checksum can only be written
+after the tag. After `git tag v<version> && git push --tags` and the GitHub
+release (a full release: the watch skips drafts and prereleases):
 
 ```sh
 cd packaging/opr/napkin

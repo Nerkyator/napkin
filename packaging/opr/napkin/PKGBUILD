@@ -27,8 +27,7 @@ depends=(
 )
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-# Placeholder until v0.1.0 is tagged on GitHub: run `updpkgsums` then.
-sha256sums=('0000000000000000000000000000000000000000000000000000000000000000')
+sha256sums=('8917593da513a8d21d234c1001d40582209fe9536d88bf9d91486ae12c59b1e8')
 
 prepare() {
   cd "$pkgname-$pkgver"
